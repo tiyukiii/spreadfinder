@@ -14,12 +14,12 @@ import threading
 import string
 import asyncio
 
-API_KEY = "mx0vglJ7q15je7pnaV"  # API-ключ
-SECRET_KEY = "8346d635a73f452c8643c31282f40872"  # secret key
+API_KEY = "api"  # API-ключ
+SECRET_KEY = "api"  # secret key
 MEXC_API_URL = "https://api.mexc.com/api/v3"
 DEX_API_URL = "https://api.dexscreener.com"
 
-bot = telebot.TeleBot("7519687252:AAEOepjfLrJIC4dcZ4iya5wNnuZMfdiQFOc")
+bot = telebot.TeleBot("api tg")
 
 ADMIN_ID = [1540889862, 957767658, 899063401, 404861384]
 global show_massage
